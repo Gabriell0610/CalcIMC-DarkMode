@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Imc</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-img">
+        <img src="img/Imagem calc-darkMode.png" alt="Imagem 2d de duas pessoas se exercitando" class="img">
+    </div>
+    <main id="modeTheme">
+        <div class="header">
+             <h2 class="title">Calculadora - IMC</h2>
+             <i id="modeIcon" class="fa-solid fa-moon" class="fa-solid fa-sun"></i>
+        </div>
+        <div class="form-container">
+            <label for="">Peso em Kg</label>
+            <div class="input-container">
+                <i class="fa-solid fa-weight-hanging"></i>
+                <input id="peso" type="number" required>
+                <span>
+                    Kg
+                </span>
+            </div>
+            <label for="">Altura em metros</label>
+            <div class="input-container">
+                <i class="fa-solid fa-ruler"></i>
+                <input id="altura" type="number" required>
+                <span>
+                    M
+                </span>
+            </div>
+
+            <button id="calcular">Calcular</button>
+        </div>
+        <div class="result" id="resultado"></div>
+
+    </main>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
