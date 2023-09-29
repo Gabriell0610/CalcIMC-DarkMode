@@ -13,16 +13,16 @@ body {
     width: 100%;
 
 
-    background-color: #727e50;
+    background-color: #618264;
 }
 
 :root {
     --ligth-color: #201f1f;
     --dark-color: #fff;
-    --bg-ligth: #f5f0dd;
-    --bg-dark: #2c2c2c;
-    --decoration-color: #519722;
-    --decoration-color-dark: #
+    --bg-ligth: #f8efd1;
+    --bg-dark: #312f2f;
+    --decoration-color: #2b2a29;
+    --decoration-color-dark: #fffacb;
 }
 
 .img {
@@ -37,7 +37,7 @@ main {
     height: 450px;
     border-radius: 5px;
     color: var(--ligth-color);
-    box-shadow: 0 0 10px #2b2a2a;
+    box-shadow: 0 0 10px #3b3a3a;
     margin: 0 100px
 
 }
@@ -131,7 +131,7 @@ input[type=number]::-webkit-outer-spin-button {
     color: var(--dark-color);
     letter-spacing: 2px;
     font-weight: 600;
-    background-color: #c2b41d;
+    background-color: #618264;
     margin-bottom: 1rem;
 }
 
@@ -159,11 +159,18 @@ input[type=number]::-webkit-outer-spin-button {
 .dark#modeTheme .form-container label ,
 .dark#modeTheme .input-container input ,
 .dark#modeTheme #modeIcon,
-.dark#modeTheme .input-container input::placeholder, 
 .dark#modeTheme .result,
 .dark#modeTheme span {
     color: var(--dark-color);
 }
+
+.dark#modeTheme .input-container {
+    border-bottom: 2px solid var(--decoration-color-dark)
+}
+.dark#modeTheme .title::after {
+    background-color: var(--decoration-color-dark);
+}
+
 
 
 
