@@ -6,7 +6,7 @@
 - JAVASCRIPT
 
 ### Design 🔥:
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 <p>Feita para estudar javascript e também responsividade!<p>
 
